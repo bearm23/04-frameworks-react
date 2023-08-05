@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    background-color: #F8FAFB;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited {
+    color: inherit;
+}

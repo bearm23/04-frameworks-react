@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    min-height: 500px;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #2f4858;
+    font-size: .7rem;
+    padding: 20px 0 0;
+    transition: background-color 0.25s;
+}
+
+.link:hover {
+    background-color: #EFF3F6;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.containerDark .link {
+    color: #ffffff;
+}
+
+.containerDark .link:hover {
+    background-color: #6C6F75;
+}
+
+.overflow-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
